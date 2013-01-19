@@ -1,5 +1,4 @@
 <?xml version="1.0" ?>
-<!-- $Id: build.xml 487 2010-12-21 00:21:41Z eddieajau $ -->
 <project name="Artof Editor Build"
 	basedir="."
 	default="main">
@@ -16,14 +15,8 @@
 
 	<!--
 	Usage:
-	1. Build off the trunk
-	# phing -Dscmusr=username -Dscmpwd=password
-
-	2. Build from a branch (must be located in /code/branches/{release})
-	# phing -Dscmusr=username -Dscmpwd=password -Dbranch=1.0.1
-
-	3. Build and rename files with version
-	# phing -Dversion=1.0.1
+	1. Standard build
+	$ phing
 	-->
 
 	<!-- MAIN -->
